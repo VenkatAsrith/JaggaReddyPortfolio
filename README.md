@@ -1,165 +1,233 @@
 # Jagga Reddy (T. Jayaprakash Reddy) — Official Public Profile & Political Portfolio
 
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Radix UI](https://img.shields.io/badge/Radix_UI-Primitives-161618?style=flat-square&logo=radix-ui&logoColor=white)](https://www.radix-ui.com/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
-
 A modern, high-performance, responsive public profile and digital portfolio celebrating the life, public service, electoral milestones, and constituency advocacy of **T. Jayaprakash Reddy (popularly known as Jagga Reddy)** — Senior Indian National Congress Leader, Working President of the Telangana Pradesh Congress Committee (TPCC), and three-term former MLA representing the Sangareddy Assembly Constituency.
 
 ---
 
-## 🏛️ About T. Jayaprakash Reddy (Jagga Reddy)
+## About T. Jayaprakash Reddy (Jagga Reddy)
 
-**T. Jayaprakash Reddy** is one of Telangana's most prominent grassroots leaders, known for his charismatic oratory, fearless advocacy for people's rights, and steadfast dedication to the welfare and development of the Sangareddy constituency and Telangana state.
+**T. Jayaprakash Reddy** is one of Telangana's prominent grassroots leaders, known for his public oratory, advocacy for people's rights, and dedication to the welfare and development of the Sangareddy constituency and Telangana state.
 
-- **Current Role**: Working President, Telangana Pradesh Congress Committee (TPCC)
-- **Legislative Career**: Three-Term Member of the Legislative Assembly (MLA) from Sangareddy (2004, 2009, 2018)
-- **Civic Leadership**: Former Chairman, Sangareddy Municipality (2000–2004)
-- **Core Focus Areas**: Manjeera river water security, farmer welfare & crop procurement, public healthcare & medical education, urban infrastructure & roads, and student rights.
-
----
-
-## ✨ Features & Architecture
-
-- **🏛️ Interactive Hero & Leadership Showcase**
-  - Dynamic welcome banner highlighting key titles, party symbol (Indian National Congress), and core principles.
-  - Quick action buttons to explore political journey, public service, constituency works, and contact office.
-
-- **📅 Chronological Political Journey**
-  - Interactive timeline documenting key milestones from early student politics and municipal chairmanship to three legislative assembly terms and state leadership.
-
-- **📊 Comprehensive Electoral Record**
-  - Verified historical breakdown and interactive data tables of Sangareddy Assembly elections (2004, 2009, 2014, 2018, 2023).
-  - Vote shares, winning margins, and constituency trends with responsive charts.
-
-- **🏙️ Sangareddy Constituency Development Hub**
-  - In-depth documentation of major infrastructure achievements:
-    - Sanctioning and establishment of the Government Medical College & Hospital.
-    - Manjeera River water supply protection for Sangareddy residents and farmers.
-    - Ring roads, internal arterial roads, flyovers, and municipal modernizations.
-    - Agricultural market yard enhancements and local irrigation canal extensions.
-
-- **🤝 Public Service & Grassroots Initiatives**
-  - Dedicated modules on citizen outreach, 24/7 public grievance redressal, student fee & hostel advocacy, and emergency relief distribution.
-
-- **📸 Media & Photo Gallery**
-  - Curated high-resolution image gallery featuring mass rallies, public addresses, padayatras, and meetings with party leadership (including Hon'ble Chief Minister A. Revanth Reddy).
-  - Category filters and modal lightbox viewer for responsive browsing.
-
-- **🎙️ Speeches & Press Statements**
-  - Legislative assembly debate highlights, landmark press briefings at Gandhi Bhavan, and video speeches.
-
-- **📫 Constituency Office & Contact Portal**
-  - Real-time contact form with client-side validation.
-  - Interactive embedded Google Map locating the Camp Office in Sangareddy.
-  - Direct helpline contacts, office hours, and official social media channels.
-
-- **🚀 SEO & Accessibility Optimized**
-  - Full OpenGraph metadata, Twitter Cards, canonical tags, and Schema.org JSON-LD Person structured data.
-  - Modern typography, high-contrast accessible colors, smooth animations via Framer Motion, and mobile-first responsive layout.
+* **Current Role:** Working President, Telangana Pradesh Congress Committee (TPCC)
+* **Legislative Career:** Three-Term Member of the Legislative Assembly (MLA) from Sangareddy (2004, 2009, 2018)
+* **Civic Leadership:** Former Chairman, Sangareddy Municipality (2000–2004)
+* **Core Focus Areas:** Manjeera river water security, farmer welfare and crop procurement, public healthcare and medical education, urban infrastructure and roads, and student rights.
 
 ---
 
-## 🛠️ Technology Stack
+## Features & Architecture
 
-| Category | Technology | Description |
-| :--- | :--- | :--- |
-| **Framework** | [React 18](https://reactjs.org/) | Component-driven declarative UI library |
-| **Build Tool** | [Vite](https://vitejs.dev/) | Lightning-fast ESM frontend tooling and bundler |
-| **Language** | [TypeScript](https://www.typescriptlang.org/) | Strongly typed JavaScript for enterprise stability |
-| **Styling** | [Tailwind CSS](https://tailwindcss.com/) | Utility-first CSS framework with custom design tokens |
-| **UI Primitives** | [Radix UI](https://www.radix-ui.com/) | Accessible, unstyled UI primitives (`dialog`, `dropdown`, `tabs`, etc.) |
-| **Icons** | [Lucide React](https://lucide.dev/) | Modern, clean vector icon set |
-| **Motion** | [Framer Motion](https://www.framer.com/motion/) | Production-ready motion and gesture library |
-| **Routing** | [React Router DOM v6](https://reactrouter.com/) | Client-side routing with deep link support |
-| **Data Viz** | [Recharts](https://recharts.org/) | Composable SVG charting library |
+### Interactive Hero & Leadership Showcase
+
+* Dynamic welcome section highlighting key titles and leadership roles.
+* Indian National Congress party identity integrated into the visual system.
+* Clear presentation of public service principles and priorities.
+* Quick navigation to political journey, public service, constituency development, and contact information.
+
+### Chronological Political Journey
+
+* Interactive timeline documenting major milestones.
+* Early student political involvement.
+* Sangareddy municipal leadership.
+* Legislative Assembly terms.
+* State-level political leadership.
+* Major public-service milestones.
+
+### Comprehensive Electoral Record
+
+* Historical Sangareddy Assembly election information.
+* Coverage of the 2004, 2009, 2014, 2018, and 2023 elections.
+* Vote shares and winning margins.
+* Constituency-level electoral trends.
+* Responsive data tables and visualizations.
+
+### Sangareddy Constituency Development Hub
+
+Detailed documentation of major constituency development initiatives, including:
+
+* Government Medical College and Hospital.
+* Manjeera River water supply protection.
+* Roads and urban infrastructure.
+* Ring roads and internal arterial roads.
+* Flyovers and municipal modernization.
+* Agricultural market yard improvements.
+* Irrigation and canal-related development.
+
+### Public Service & Grassroots Initiatives
+
+Dedicated sections covering:
+
+* Citizen outreach.
+* Public grievance support.
+* Student fee and hostel advocacy.
+* Emergency relief initiatives.
+* Constituency-level public engagement.
+* Community welfare activities.
+
+### Media & Photo Gallery
+
+* Curated high-resolution photography.
+* Public meetings and rallies.
+* Public addresses.
+* Padayatras.
+* Constituency visits.
+* Meetings with political leaders.
+* Category-based filtering.
+* Responsive lightbox viewer.
+
+### Speeches & Press Statements
+
+* Legislative Assembly debate highlights.
+* Public speeches.
+* Press briefings.
+* Gandhi Bhavan events.
+* Video addresses.
+* Political statements and public communications.
+
+### Constituency Office & Contact Portal
+
+* Contact form with client-side validation.
+* Interactive Google Maps integration.
+* Camp Office location.
+* Public contact information.
+* Office hours.
+* Official social media links.
+
+### SEO & Accessibility
+
+* OpenGraph metadata.
+* Twitter Card metadata.
+* Canonical URLs.
+* Schema.org JSON-LD Person structured data.
+* Accessible color contrast.
+* Responsive typography.
+* Mobile-first design.
+* Smooth UI animations.
+* Semantic HTML structure.
+* Search-engine-friendly page architecture.
 
 ---
 
-## 📂 Project Structure
+## Technology Stack
+
+| Category               | Technology          | Description                                     |
+| :--------------------- | :------------------ | :---------------------------------------------- |
+| **Framework**          | React 18            | Component-driven declarative UI library         |
+| **Build Tool**         | Vite 5              | Fast modern frontend tooling and bundling       |
+| **Language**           | TypeScript 5        | Strongly typed JavaScript                       |
+| **Styling**            | Tailwind CSS 3      | Utility-first CSS framework                     |
+| **UI Primitives**      | Radix UI            | Accessible, unstyled UI primitives              |
+| **Icons**              | Lucide React        | Modern vector icon system                       |
+| **Motion**             | Framer Motion       | Production-ready motion and interaction library |
+| **Routing**            | React Router DOM v6 | Client-side routing                             |
+| **Data Visualization** | Recharts            | Responsive charting library                     |
+
+---
+
+## Project Structure
 
 ```text
 ├── public/
-│   ├── assets/               # Generated and static SVG illustrations
+│   ├── assets/
+│   │   └── Generated and static SVG illustrations
 │   ├── images/
-│   │   ├── branding/         # Congress hand and official insignias
-│   │   └── jagga-reddy/      # Verified photography (rallies, speeches, meetings)
-│   ├── favicon.png           # Authoritative Indian National Congress favicon
-│   ├── favicon.svg           # Scalable SVG favicon
-│   ├── robots.txt            # Search engine crawl directives
-│   └── sitemap.xml           # Search engine sitemap
+│   │   ├── branding/
+│   │   │   └── Congress branding and official insignias
+│   │   └── jagga-reddy/
+│   │       └── Verified photography
+│   ├── favicon.png
+│   ├── favicon.svg
+│   ├── robots.txt
+│   └── sitemap.xml
+│
 ├── src/
-│   ├── assets/               # App-level bundled assets
-│   ├── components/           # Reusable UI widgets, Navbar, Footer, Cards
-│   ├── context/              # Global React contexts (Theme, Nav state)
-│   ├── data/                 # Structured data for elections, timeline, gallery
-│   ├── hooks/                # Custom React hooks (window resize, scroll state)
-│   ├── lib/                  # Utility functions (cn helper, formatting)
-│   ├── pages/                # Page components:
-│   │   ├── Home.tsx          # Hero, overview, key highlights
-│   │   ├── About.tsx         # Biography, background, core vision
-│   │   ├── PoliticalJourney.tsx # Detailed timeline & leadership roles
-│   │   ├── Sangareddy.tsx    # Constituency achievements & local impact
-│   │   ├── Elections.tsx     # Historical assembly election data & charts
-│   │   ├── PublicService.tsx # Social welfare, grievance resolution
-│   │   ├── Speeches.tsx      # Video addresses & assembly statements
-│   │   ├── Gallery.tsx       # Filterable photo & video gallery
-│   │   ├── Contact.tsx       # Office address, interactive map & feedback form
-│   │   └── NotFound.tsx      # 404 handler page
-│   ├── ui/                   # Radix / shadcn reusable UI primitives
-│   ├── App.tsx               # Main application routing and shell
-│   ├── index.css             # Tailwind base & custom utility layers
-│   └── main.tsx              # Application entry point
-├── components.json           # shadcn configuration
-├── package.json              # Dependencies and build scripts
-├── tailwind.config.ts        # Tailwind configuration & design palette
-├── tsconfig.json             # TypeScript compiler configuration
-└── vite.config.ts            # Vite configuration
+│   ├── assets/
+│   ├── components/
+│   │   └── Reusable UI components
+│   ├── context/
+│   │   └── Global application contexts
+│   ├── data/
+│   │   └── Elections, timeline and gallery data
+│   ├── hooks/
+│   │   └── Custom React hooks
+│   ├── lib/
+│   │   └── Utility functions
+│   ├── pages/
+│   │   ├── Home.tsx
+│   │   ├── About.tsx
+│   │   ├── PoliticalJourney.tsx
+│   │   ├── Sangareddy.tsx
+│   │   ├── Elections.tsx
+│   │   ├── PublicService.tsx
+│   │   ├── Speeches.tsx
+│   │   ├── Gallery.tsx
+│   │   ├── Contact.tsx
+│   │   └── NotFound.tsx
+│   ├── ui/
+│   │   └── Radix and shadcn UI primitives
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
+│
+├── components.json
+├── package.json
+├── tailwind.config.ts
+├── tsconfig.json
+└── vite.config.ts
 ```
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-Ensure you have the following installed on your machine:
-- **Node.js** (v18.0.0 or higher recommended)
-- **npm** (v9.0.0 or higher) or **yarn** / **pnpm**
+Ensure the following are installed:
 
-### 1. Clone the Repository
+* Node.js v18.0 or higher
+* npm v9.0 or higher
+* yarn or pnpm (optional)
+
+### Clone the Repository
 
 ```bash
 git clone https://github.com/VenkatAsrith/JaggaReddyPortfolio.git
 cd JaggaReddyPortfolio
 ```
 
-### 2. Install Dependencies
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Start Development Server
+### Start Development Server
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the application with hot module replacement (HMR).
+Open the development server in your browser:
 
-### 4. Build for Production
+```text
+http://localhost:5173
+```
+
+### Build for Production
 
 ```bash
 npm run build
 ```
 
-This compiles optimized assets into the `dist/` folder ready for deployment on Vercel, Netlify, Cloudflare Pages, or GitHub Pages.
+The optimized production build will be generated in:
 
-### 5. Preview Production Build Locally
+```text
+dist/
+```
+
+The application can then be deployed using platforms such as Vercel, Netlify, Cloudflare Pages, or GitHub Pages.
+
+### Preview Production Build
 
 ```bash
 npm run preview
@@ -167,20 +235,39 @@ npm run preview
 
 ---
 
-## 📍 Constituency Office Information
+## Constituency Office Information
 
-- **Camp Office (Sangareddy)**:
-  Opp. Municipal Office, Main Road, Sangareddy, Telangana – 502001
-- **Party Headquarters**:
-  Gandhi Bhavan, Nampally, Hyderabad, Telangana – 500001
-- **Key Office Contacts**:
-  - Email: `office@jaggareddy.in` / `contact@jaggareddy.in`
-  - Public Hours: Monday – Saturday, 09:00 AM – 02:00 PM (Sangareddy Camp Office)
+### Camp Office — Sangareddy
+
+Opposite Municipal Office,
+Main Road, Sangareddy,
+Telangana – 502001
+
+### Party Headquarters
+
+Gandhi Bhavan,
+Nampally, Hyderabad,
+Telangana – 500001
+
+### Key Office Contacts
+
+* Email: `office@jaggareddy.in`
+* Email: `contact@jaggareddy.in`
+* Public Hours: Monday–Saturday, 09:00 AM–02:00 PM
+* Location: Sangareddy Camp Office
 
 ---
 
-## 📄 License & Attribution
+## License & Attribution
 
-This project is built and maintained as a public informational profile and digital archive for T. Jayaprakash Reddy (Jagga Reddy). 
+This project is designed and maintained as a public informational profile and digital archive for **T. Jayaprakash Reddy (Jagga Reddy)**.
 
 © 2026 T. Jayaprakash Reddy (Jagga Reddy) Public Profile. All rights reserved.
+
+---
+
+## Disclaimer
+
+This website is intended as a public-profile and informational portfolio. Political, electoral, biographical, and constituency-related information should be verified against authoritative sources before being published as official information.
+
+The project should not imply official authorization, endorsement, or ownership unless explicitly approved by the concerned office or organization.
