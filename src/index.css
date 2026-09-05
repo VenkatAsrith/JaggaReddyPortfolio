@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Noto+Sans+Telugu:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --congress-orange: #FF671F;
+    --congress-green: #046A38;
+    --white: #FFFFFF;
+    --black: #000000;
+
+    --off-white: #F8F8F6;
+    --light-orange: #FFF1E9;
+    --light-green: #EAF5EF;
+
+    --dark-text: #111111;
+    --muted-text: #5F5F5F;
+    --border: #E5E5E5;
+
+    --background: #FFFFFF;
+    --foreground: #111111;
+  }
+
+  html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Roboto', 'Noto Sans Telugu', sans-serif;
+    background-color: var(--background);
+    color: var(--foreground);
+    min-width: 320px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  /* When Telugu language is active on html / root element */
+  html[lang="te"] body {
+    font-family: 'Noto Sans Telugu', 'Roboto', sans-serif;
+    line-height: 1.65;
+  }
+
+  html[lang="te"] h1,
+  html[lang="te"] h2,
+  html[lang="te"] h3,
+  html[lang="te"] h4,
+  html[lang="te"] h5,
+  html[lang="te"] h6 {
+    font-family: 'Noto Sans Telugu', 'Montserrat', sans-serif;
+    line-height: 1.35;
+    letter-spacing: normal;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', 'Noto Sans Telugu', sans-serif;
+    color: var(--dark-text);
+  }
+}
+
+@layer components {
+  .congress-stripe {
+    height: 4px;
+    background: linear-gradient(90deg, #FF671F 0%, #FF671F 33.3%, #FFFFFF 33.3%, #FFFFFF 66.6%, #046A38 66.6%, #046A38 100%);
+    width: 100%;
+  }
+
+  .congress-stripe-subtle {
+    height: 3px;
+    background: linear-gradient(90deg, #FF671F 0%, #FFFFFF 50%, #046A38 100%);
+    width: 100%;
+  }
+
+  /* Top-Notch Card Hover System */
+  .editorial-card,
+  .topnotch-card {
+    position: relative;
+    background: #FFFFFF;
+    border: 1px solid var(--border);
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+                box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+                border-color 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    overflow: hidden;
+  }
+
+  .editorial-card::before,
+  .topnotch-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #FF671F, #FFFFFF, #046A38);
+    opacity: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: opacity 0.35s ease, transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    z-index: 10;
+  }
+
+  .editorial-card:hover,
+  .topnotch-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(255, 103, 31, 0.5);
+    box-shadow: 0 16px 36px -8px rgba(255, 103, 31, 0.14),
+                0 6px 16px -4px rgba(4, 106, 56, 0.08);
+  }
+
+  .editorial-card:hover::before,
+  .topnotch-card:hover::before {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+
+  /* Tricolor Button Animations requested by User:
+     - Saffron button slowly transitions: Saffron -> White -> Green on hover
+     - Green button slowly transitions: Green -> White -> Saffron on hover
+  */
+  .btn-congress-saffron {
+    background: linear-gradient(135deg, #FF671F 0%, #FF671F 28%, #FFFFFF 50%, #046A38 72%, #046A38 100%);
+    background-size: 280% 280%;
+    background-position: 0% 50%;
+    color: #FFFFFF !important;
+    border: 1px solid rgba(255, 103, 31, 0.4);
+    box-shadow: 0 4px 14px rgba(255, 103, 31, 0.25);
+    transition: background-position 0.65s cubic-bezier(0.4, 0, 0.2, 1),
+                color 0.45s ease,
+                box-shadow 0.45s ease,
+                transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1),
+                border-color 0.45s ease;
+    position: relative;
+    z-index: 1;
+  }
+
+  .btn-congress-saffron:hover {
+    background-position: 100% 50%;
+    color: #FFFFFF !important;
+    box-shadow: 0 8px 24px rgba(4, 106, 56, 0.35);
+    transform: translateY(-2px);
+    border-color: rgba(4, 106, 56, 0.5);
+  }
+
+  .btn-congress-green {
+    background: linear-gradient(135deg, #046A38 0%, #046A38 28%, #FFFFFF 50%, #FF671F 72%, #FF671F 100%);
+    background-size: 280% 280%;
+    background-position: 0% 50%;
+    color: #FFFFFF !important;
+    border: 1px solid rgba(4, 106, 56, 0.4);
+    box-shadow: 0 4px 14px rgba(4, 106, 56, 0.25);
+    transition: background-position 0.65s cubic-bezier(0.4, 0, 0.2, 1),
+                color 0.45s ease,
+                box-shadow 0.45s ease,
+                transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1),
+                border-color 0.45s ease;
+    position: relative;
+    z-index: 1;
+  }
+
+  .btn-congress-green:hover {
+    background-position: 100% 50%;
+    color: #FFFFFF !important;
+    box-shadow: 0 8px 24px rgba(255, 103, 31, 0.35);
+    transform: translateY(-2px);
+    border-color: rgba(255, 103, 31, 0.5);
+  }
+
+  /* Light outline Green button that transforms through white into saffron */
+  .btn-congress-light-green {
+    background: linear-gradient(135deg, #EAF5EF 0%, #EAF5EF 28%, #FFFFFF 50%, #FF671F 72%, #FF671F 100%);
+    background-size: 280% 280%;
+    background-position: 0% 50%;
+    color: #046A38;
+    border: 1.5px solid rgba(4, 106, 56, 0.3);
+    box-shadow: 0 2px 8px rgba(4, 106, 56, 0.1);
+    transition: background-position 0.65s cubic-bezier(0.4, 0, 0.2, 1),
+                color 0.45s ease,
+                box-shadow 0.45s ease,
+                transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1),
+                border-color 0.45s ease;
+    position: relative;
+    z-index: 1;
+  }
+
+  .btn-congress-light-green:hover {
+    background-position: 100% 50%;
+    color: #FFFFFF !important;
+    box-shadow: 0 8px 24px rgba(255, 103, 31, 0.3);
+    transform: translateY(-2px);
+    border-color: #FF671F;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

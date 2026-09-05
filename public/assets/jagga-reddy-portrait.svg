@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F2937" />
+      <stop offset="40%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#831843" />
+    </linearGradient>
+    <linearGradient id="magentaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#831843" />
+      <stop offset="50%" stop-color="#BE185D" />
+      <stop offset="100%" stop-color="#FB7185" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1000" fill="url(#bgGrad)" />
+
+  <!-- Radial Glow Behind Silhouette -->
+  <circle cx="400" cy="420" r="280" fill="#BE185D" opacity="0.2" filter="url(#softGlow)" />
+  <circle cx="400" cy="400" r="180" fill="#FDF2F8" opacity="0.08" />
+
+  <!-- Geometric Pattern Lines -->
+  <path d="M50 0 L50 1000 M750 0 L750 1000" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1" />
+  <circle cx="400" cy="380" r="240" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1" fill="none" stroke-dasharray="6,6" />
+
+  <!-- Dignified Leader Silhouette Artwork -->
+  <!-- Shoulders & Torso with Traditional Kurta & Angavastram -->
+  <g transform="translate(400, 480)">
+    <!-- Main Body Base -->
+    <path d="M-260 480 C-260 260 -180 200 -80 180 L80 180 C180 200 260 260 260 480 Z" fill="#F9FAFB" />
+    
+    <!-- Kurta Collar & Placket -->
+    <path d="M-40 180 L0 280 L40 180 Z" fill="#E5E7EB" />
+    <path d="M-8 280 L-8 480 L8 480 L8 280 Z" fill="#D1D5DB" />
+    <!-- Buttons -->
+    <circle cx="0" cy="310" r="4" fill="#9CA3AF" />
+    <circle cx="0" cy="350" r="4" fill="#9CA3AF" />
+    <circle cx="0" cy="390" r="4" fill="#9CA3AF" />
+
+    <!-- Ceremonial Shawl (Angavastram) draped over left shoulder -->
+    <path d="M-240 480 C-240 280 -180 210 -110 185 L-50 190 C-80 230 -100 320 -80 480 Z" fill="#831843" opacity="0.95" />
+    <path d="M-240 480 C-240 300 -190 230 -115 195" stroke="#F59E0B" stroke-width="6" fill="none" />
+    <path d="M-85 480 L-50 190" stroke="#F59E0B" stroke-width="4" fill="none" opacity="0.7" />
+
+    <!-- Neck -->
+    <path d="M-50 180 L-50 90 L50 90 L50 180 Z" fill="#F3E8E2" />
+
+    <!-- Head & Face Profile -->
+    <ellipse cx="0" cy="30" rx="95" ry="120" fill="#F3E8E2" />
+    <!-- Hair & Beard Styling -->
+    <path d="M-95 0 C-95 -90 -60 -130 0 -130 C60 -130 95 -90 95 0 C95 -60 70 -110 0 -110 C-70 -110 -95 -60 -95 0 Z" fill="#1F2937" />
+    <path d="M-85 10 C-70 -70 70 -70 85 10 C70 -40 -70 -40 -85 10 Z" fill="#111827" />
+    <!-- Ears -->
+    <ellipse cx="-95" cy="35" rx="14" ry="26" fill="#EBD5CB" />
+    <ellipse cx="95" cy="35" rx="14" ry="26" fill="#EBD5CB" />
+    <!-- Glasses -->
+    <rect x="-70" y="10" width="55" height="35" rx="10" fill="none" stroke="#D97706" stroke-width="4" opacity="0.9" />
+    <rect x="15" y="10" width="55" height="35" rx="10" fill="none" stroke="#D97706" stroke-width="4" opacity="0.9" />
+    <line x1="-15" y1="26" x2="15" y2="26" stroke="#D97706" stroke-width="4" />
+    <line x1="-70" y1="24" x2="-95" y2="20" stroke="#D97706" stroke-width="3" />
+    <line x1="70" y1="24" x2="95" y2="20" stroke="#D97706" stroke-width="3" />
+
+    <!-- Moustache -->
+    <path d="M-45 78 Q0 70 45 78 Q25 96 0 88 Q-25 96 -45 78 Z" fill="#1F2937" />
+    <!-- Dignified Smile Line -->
+    <path d="M-22 105 Q0 114 22 105" stroke="#9A3412" stroke-width="3" fill="none" stroke-linecap="round" />
+    <!-- Tilak / Kumkum Mark -->
+    <ellipse cx="0" cy="-25" rx="5" ry="12" fill="#DC2626" />
+    <ellipse cx="0" cy="-25" rx="2" ry="7" fill="#FBBF24" />
+  </g>
+
+  <!-- Editorial Top Badge -->
+  <g transform="translate(400, 90)">
+    <rect x="-180" y="-24" width="360" height="48" rx="24" fill="#1F2937" stroke="#BE185D" stroke-width="1.5" />
+    <circle cx="-140" cy="0" r="6" fill="#BE185D" />
+    <text x="0" y="6" font-family="'Montserrat', sans-serif" font-size="13" font-weight="700" fill="#FDF2F8" letter-spacing="3" text-anchor="middle">PUBLIC LEADERSHIP PROFILE</text>
+    <circle cx="140" cy="0" r="6" fill="#BE185D" />
+  </g>
+
+  <!-- Editorial Bottom Caption Overlay Card -->
+  <g transform="translate(60, 830)">
+    <rect width="680" height="130" rx="16" fill="#111827" fill-opacity="0.95" stroke="#374151" stroke-width="1" />
+    <!-- Accent Line -->
+    <rect x="0" y="0" width="680" height="4" rx="2" fill="url(#magentaGrad)" />
+    
+    <text x="40" y="45" font-family="'Montserrat', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" letter-spacing="1">T. JAYAPRAKASH REDDY</text>
+    <text x="40" y="75" font-family="'Montserrat', sans-serif" font-size="16" font-weight="700" fill="#FB7185" letter-spacing="1.5">JAGGA REDDY</text>
+    <text x="40" y="102" font-family="'Roboto', sans-serif" font-size="14" font-weight="400" fill="#9CA3AF">Working President, TPCC • Former Three-Term MLA, Sangareddy</text>
+
+    <!-- Seal / Badge Icon on Right -->
+    <g transform="translate(590, 65)">
+      <circle cx="0" cy="0" r="32" fill="#831843" stroke="#F59E0B" stroke-width="2" />
+      <text x="0" y="5" font-family="'Montserrat', sans-serif" font-size="18" font-weight="800" fill="#FFFFFF" text-anchor="middle">JR</text>
+      <path d="M-15 -35 L0 -20 L15 -35" stroke="#F59E0B" stroke-width="2" fill="none" />
+    </g>
+  </g>
+
+  <!-- Framing Border -->
+  <rect x="20" y="20" width="760" height="960" rx="20" fill="none" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1.5" />
+</svg>
